@@ -1,0 +1,2 @@
+C:\Users\Markus\AppData\Local\robocorp\holotree\b1f3c244e_1c0bc041\lib\site-packages\urllib3\connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'jsonplaceholder.typicode.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
