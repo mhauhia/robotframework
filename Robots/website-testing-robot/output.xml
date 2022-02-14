@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.7.5 on win32)" generated="20220213 16:36:53.211" rpa="false" schemaversion="2">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\Markus\.vscode\extensions\robocorp.robotframework-lsp-0.40.1\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20220213 16:37:18.497" endtime="20220213 16:37:24.031"/>
+</kw>
+<status status="PASS" starttime="20220213 16:36:53.243" endtime="20220213 19:55:13.997"/>
+</kw>
+<status status="PASS" starttime="20220213 16:36:53.243" endtime="20220213 19:55:14.002"/>
+</test>
+<status status="PASS" starttime="20220213 16:36:53.213" endtime="20220213 19:55:14.010"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
+nd.</status>
+</test>
+<doc>The robot locates to Elisa.fi -website, searches for available options for home Internet connection in the given address and saves a screenshot.</doc>
+<status status="FAIL" starttime="20220213 18:50:28.542" endtime="20220213 18:50:28.555"/>
+</suite>
+<status status="FAIL" starttime="20220213 18:50:28.521" endtime="20220213 18:50:28.557"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Website-Testing-Robot">Website-Testing-Robot</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Tasks">Website-Testing-Robot.Tasks</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220213 18:50:28.545" level="ERROR">Error in file 'C:\Users\Markus\Documents\Robocorp\Robots\website-testing-robot\tasks.robot' on line 3: Importing library 'RPA.Browser.Selenium' failed: ModuleNotFoundError: No module named 'RPA'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Markus\AppData\Local\Programs\Python\Python310\Scripts\robot.exe
+  C:\Users\Markus\AppData\Local\Programs\Python\Python310\python310.zip
+  C:\Users\Markus\AppData\Local\Programs\Python\Python310\DLLs
+  C:\Users\Markus\AppData\Local\Programs\Python\Python310\lib
+  C:\Users\Markus\AppData\Local\Programs\Python\Python310
+  C:\Users\Markus\AppData\Roaming\Python\Python310\site-packages
+  C:\Users\Markus\AppData\Local\Programs\Python\Python310\lib\site-packages</msg>
+<msg timestamp="20220213 18:50:28.547" level="ERROR">Error in file 'C:\Users\Markus\Documents\Robocorp\Robots\website-testing-robot\tasks.robot' on line 4: Importing library 'RPA.RobotLogListener' failed: ModuleNotFoundError: No module named 'RPA'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Markus\AppData\Local\Programs\Python\Python310\Scripts\robot.exe
+  C:\Users\Markus\AppData\Local\Programs\Python\Python310\python310.zip
+  C:\Users\Markus\AppData\Local\Programs\Python\Python310\DLLs
+  C:\Users\Markus\AppData\Local\Programs\Python\Python310\lib
+  C:\Users\Markus\AppData\Local\Programs\Python\Python310
+  C:\Users\Markus\AppData\Roaming\Python\Python310\site-packages
+  C:\Users\Markus\AppData\Local\Programs\Python\Python310\lib\site-packages</msg>
+<msg timestamp="20220213 18:50:28.548" level="ERROR">Error in file 'C:\Users\Markus\Documents\Robocorp\Robots\website-testing-robot\tasks.robot' on line 5: Importing library 'RPA.Dialogs' failed: ModuleNotFoundError: No module named 'RPA'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Markus\AppData\Local\Programs\Python\Python310\Scripts\robot.exe
+  C:\Users\Markus\AppData\Local\Programs\Python\Python310\python310.zip
+  C:\Users\Markus\AppData\Local\Programs\Python\Python310\DLLs
+  C:\Users\Markus\AppData\Local\Programs\Python\Python310\lib
+  C:\Users\Markus\AppData\Local\Programs\Python\Python310
+  C:\Users\Markus\AppData\Roaming\Python\Python310\site-packages
+  C:\Users\Markus\AppData\Local\Programs\Python\Python310\lib\site-packages</msg>
+</errors>
+</robot>
